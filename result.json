@@ -1,0 +1,324 @@
+{
+    "optimizedOrder": [
+        0,
+        5,
+        9,
+        7,
+        8,
+        4,
+        1,
+        2,
+        3,
+        10,
+        11,
+        6,
+        0
+    ],
+    "summary": {
+        "routeSummary": {
+            "originIndex": 0,
+            "destinationIndex": 0,
+            "lengthInMeters": 171869,
+            "travelTimeInSeconds": 13555,
+            "waitingTimeInSeconds": 0,
+            "serviceTimeInSeconds": 7200,
+            "departureTime": "2024-07-01T10:30:00+03:00",
+            "arrivalTime": "2024-07-01T16:15:55+03:00"
+        },
+        "legSummaries": [
+            {
+                "originIndex": 0,
+                "destinationIndex": 5,
+                "lengthInMeters": 11531,
+                "travelTimeInSeconds": 1222,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T10:40:00+03:00",
+                "arrivalTime": "2024-07-01T11:00:22+03:00"
+            },
+            {
+                "originIndex": 5,
+                "destinationIndex": 9,
+                "lengthInMeters": 17868,
+                "travelTimeInSeconds": 1410,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T11:10:22+03:00",
+                "arrivalTime": "2024-07-01T11:33:52+03:00"
+            },
+            {
+                "originIndex": 9,
+                "destinationIndex": 7,
+                "lengthInMeters": 16836,
+                "travelTimeInSeconds": 1305,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T11:43:52+03:00",
+                "arrivalTime": "2024-07-01T12:05:37+03:00"
+            },
+            {
+                "originIndex": 7,
+                "destinationIndex": 8,
+                "lengthInMeters": 8285,
+                "travelTimeInSeconds": 882,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T12:15:37+03:00",
+                "arrivalTime": "2024-07-01T12:30:19+03:00"
+            },
+            {
+                "originIndex": 8,
+                "destinationIndex": 4,
+                "lengthInMeters": 13114,
+                "travelTimeInSeconds": 940,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T12:40:19+03:00",
+                "arrivalTime": "2024-07-01T12:55:59+03:00"
+            },
+            {
+                "originIndex": 4,
+                "destinationIndex": 1,
+                "lengthInMeters": 5809,
+                "travelTimeInSeconds": 600,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T13:05:59+03:00",
+                "arrivalTime": "2024-07-01T13:15:59+03:00"
+            },
+            {
+                "originIndex": 1,
+                "destinationIndex": 2,
+                "lengthInMeters": 9057,
+                "travelTimeInSeconds": 883,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T13:25:59+03:00",
+                "arrivalTime": "2024-07-01T13:40:42+03:00"
+            },
+            {
+                "originIndex": 2,
+                "destinationIndex": 3,
+                "lengthInMeters": 5548,
+                "travelTimeInSeconds": 787,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T13:50:42+03:00",
+                "arrivalTime": "2024-07-01T14:03:49+03:00"
+            },
+            {
+                "originIndex": 3,
+                "destinationIndex": 10,
+                "lengthInMeters": 17277,
+                "travelTimeInSeconds": 1320,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T14:13:49+03:00",
+                "arrivalTime": "2024-07-01T14:35:49+03:00"
+            },
+            {
+                "originIndex": 10,
+                "destinationIndex": 11,
+                "lengthInMeters": 27271,
+                "travelTimeInSeconds": 1666,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T14:45:49+03:00",
+                "arrivalTime": "2024-07-01T15:13:35+03:00"
+            },
+            {
+                "originIndex": 11,
+                "destinationIndex": 6,
+                "lengthInMeters": 21717,
+                "travelTimeInSeconds": 1066,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T15:23:35+03:00",
+                "arrivalTime": "2024-07-01T15:41:21+03:00"
+            },
+            {
+                "originIndex": 6,
+                "destinationIndex": 0,
+                "lengthInMeters": 17556,
+                "travelTimeInSeconds": 1474,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T15:51:21+03:00",
+                "arrivalTime": "2024-07-01T16:15:55+03:00"
+            }
+        ]
+    }
+}
+[
+    {
+        "id": 0,
+        "address": "Південний вокзал",
+        "longitude": 30.48622,
+        "latitude": 50.43872,
+        "is_starting_point": True
+    },
+    {
+        "id": 1,
+        "address": "Київ, пр-т Степана Бандери, 36-А",
+        "longitude": 30.520159,
+        "latitude": 50.486754,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "22:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "is_starting_point": False
+    },
+    {
+        "id": 3,
+        "address": "Київ, Дніпровська наб., 13-В",
+        "longitude": 30.606813,
+        "latitude": 50.523063,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "22:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "is_starting_point": False,
+        "group_id": 3
+    },
+    {
+        "id": 4,
+        "address": "Київ, вул. Братиславська, 11",
+        "longitude": 30.610474,
+        "latitude": 50.487101,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "22:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "is_starting_point": False,
+        "group_id": 4
+    },
+    {
+        "id": 5,
+        "address": "Київ, вул. Полярна, 20-Д",
+        "longitude": 30.480584,
+        "latitude": 50.520904,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "22:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "is_starting_point": False,
+        "group_id": 5
+    },
+    {
+        "id": 6,
+        "address": "Київ, Кільцева дорога, 1-Б",
+        "longitude": 30.445587,
+        "latitude": 50.37715,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "22:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "is_starting_point": False,
+        "group_id": 6
+    },
+    {
+        "id": 7,
+        "address": "Київ, пр-т Петра Григоренка, 40",
+        "longitude": 30.635416,
+        "latitude": 50.390768,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "22:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "is_starting_point": False,
+        "group_id": 2
+    },
+    {
+        "id": 9,
+        "address": "Бучанський район, с. Петропавлівська Борщагівка, вул. Кришталева, 6",
+        "longitude": 30.354271,
+        "latitude": 50.440018,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "22:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "is_starting_point": False,
+        "group_id": 8
+    },
+    {
+        "id": 10,
+        "address": "Київ, вул. Берковецька, 6-В",
+        "longitude": 30.362271,
+        "latitude": 50.493477,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "22:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "is_starting_point": False,
+        "group_id": 9
+    },
+    {
+        "id": 11,
+        "address": "Боярка, вул. Магістральна, 2",
+        "longitude": 30.280509,
+        "latitude": 50.345789,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "21:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "is_starting_point": False,
+        "group_id": 11
+    },
+    {
+        "id": 12,
+        "address": "Бровари, вул. Київська, 253",
+        "longitude": 30.786833,
+        "latitude": 50.520077,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "21:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "is_starting_point": False,
+        "group_id": 11
+    },
+    {
+        "id": 13,
+        "address": "Бориспіль, вул. Горбатюка, 2",
+        "longitude": 30.909599,
+        "latitude": 50.36951,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "21:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "is_starting_point": False,
+        "group_id": 9
+    }
+]
