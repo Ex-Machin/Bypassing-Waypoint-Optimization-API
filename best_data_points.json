@@ -1,0 +1,163 @@
+[
+    {
+        "id": 0,
+        "address": "Південний вокзал",
+        "longitude": 30.48622,
+        "latitude": 50.43872,
+        "group_id": 0
+    },
+    {
+        "id": 1,
+        "address": "Київ, пр-т Степана Бандери, 36-А",
+        "longitude": 30.520159,
+        "latitude": 50.486754,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "22:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "group_id": 1
+    },
+    {
+        "id": 8,
+        "address": "Київ, вул. Оноре де Бальзака, 65/1",
+        "longitude": 30.606269,
+        "latitude": 50.522068,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "22:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "group_id": 2
+    },
+    {
+        "id": 4,
+        "address": "Київ, вул. Братиславська, 11",
+        "longitude": 30.610474,
+        "latitude": 50.487101,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "22:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "group_id": 3
+    },
+    {
+        "id": 5,
+        "address": "Київ, вул. Полярна, 20-Д",
+        "longitude": 30.480584,
+        "latitude": 50.520904,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "22:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "group_id": 4
+    },
+    {
+        "id": 6,
+        "address": "Київ, Кільцева дорога, 1-Б",
+        "longitude": 30.445587,
+        "latitude": 50.37715,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "22:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "group_id": 5
+    },
+    {
+        "id": 7,
+        "address": "Київ, пр-т Петра Григоренка, 40",
+        "longitude": 30.635416,
+        "latitude": 50.390768,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "22:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "group_id": 6
+    },
+    {
+        "id": 9,
+        "address": "Бучанський район, с. Петропавлівська Борщагівка, вул. Кришталева, 6",
+        "longitude": 30.354271,
+        "latitude": 50.440018,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "22:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "group_id": 7
+    },
+    {
+        "id": 10,
+        "address": "Київ, вул. Берковецька, 6-В",
+        "longitude": 30.362271,
+        "latitude": 50.493477,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "22:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "group_id": 8
+    },
+    {
+        "id": 11,
+        "address": "Боярка, вул. Магістральна, 2",
+        "longitude": 30.280509,
+        "latitude": 50.345789,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "21:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "group_id": 9
+    },
+    {
+        "id": 12,
+        "address": "Бровари, вул. Київська, 253",
+        "longitude": 30.786833,
+        "latitude": 50.520077,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "21:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "group_id": 10
+    },
+    {
+        "id": 13,
+        "address": "Бориспіль, вул. Горбатюка, 2",
+        "longitude": 30.909599,
+        "latitude": 50.36951,
+        "working_hours": [
+            {
+                "opening_hours": "08:00",
+                "closing_hours": "21:00",
+                "day_of_the_week": "Monday"
+            }
+        ],
+        "group_id": 11
+    }
+]

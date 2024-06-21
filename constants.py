@@ -1,4 +1,6 @@
-api_key = "R9ig8OCACmamWAzsHIGmvniYUBKWyqhs"
+# constants.py 
+
+api_key = ""
 base_url = "https://api.tomtom.com"
 endpoint = "routing"
 version = 1

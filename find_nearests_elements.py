@@ -1,11 +1,11 @@
+# find_nearests_elements.py
+
 from utils import is_close
 import json
 
 with open("data.json", "r", encoding="utf-8") as file:
     waypoints = json.load(file)["waypoints"]
 
-
-# Group close points together
 groups = []
 used_points = set()
 
@@ -20,7 +20,6 @@ for i, waypoint in enumerate(waypoints):
             used_points.add(j)
     groups.append(group)
 
-# Print the waypoints and their groups
 for idx, group in enumerate(groups):
     print(f"Group {idx}:")
     for point in group:

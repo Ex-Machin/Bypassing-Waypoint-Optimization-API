@@ -1,0 +1,151 @@
+{
+    "optimizedOrder": [
+        0,
+        5,
+        9,
+        7,
+        8,
+        4,
+        1,
+        2,
+        3,
+        10,
+        11,
+        6,
+        0
+    ],
+    "summary": {
+        "routeSummary": {
+            "originIndex": 0,
+            "destinationIndex": 0,
+            "lengthInMeters": 170865,
+            "travelTimeInSeconds": 13263,
+            "waitingTimeInSeconds": 0,
+            "serviceTimeInSeconds": 6600,
+            "departureTime": "2024-07-01T13:00:00+03:00",
+            "arrivalTime": "2024-07-01T18:31:03+03:00"
+        },
+        "legSummaries": [
+            {
+                "originIndex": 0,
+                "destinationIndex": 5,
+                "lengthInMeters": 11531,
+                "travelTimeInSeconds": 1199,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 0,
+                "departureTime": "2024-07-01T13:00:00+03:00",
+                "arrivalTime": "2024-07-01T13:19:59+03:00"
+            },
+            {
+                "originIndex": 5,
+                "destinationIndex": 9,
+                "lengthInMeters": 17868,
+                "travelTimeInSeconds": 1396,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T13:29:59+03:00",
+                "arrivalTime": "2024-07-01T13:53:15+03:00"
+            },
+            {
+                "originIndex": 9,
+                "destinationIndex": 7,
+                "lengthInMeters": 16836,
+                "travelTimeInSeconds": 1269,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T14:03:15+03:00",
+                "arrivalTime": "2024-07-01T14:24:24+03:00"
+            },
+            {
+                "originIndex": 7,
+                "destinationIndex": 8,
+                "lengthInMeters": 8285,
+                "travelTimeInSeconds": 855,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T14:34:24+03:00",
+                "arrivalTime": "2024-07-01T14:48:39+03:00"
+            },
+            {
+                "originIndex": 8,
+                "destinationIndex": 4,
+                "lengthInMeters": 13114,
+                "travelTimeInSeconds": 929,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T14:58:39+03:00",
+                "arrivalTime": "2024-07-01T15:14:08+03:00"
+            },
+            {
+                "originIndex": 4,
+                "destinationIndex": 1,
+                "lengthInMeters": 5809,
+                "travelTimeInSeconds": 589,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T15:24:08+03:00",
+                "arrivalTime": "2024-07-01T15:33:57+03:00"
+            },
+            {
+                "originIndex": 1,
+                "destinationIndex": 2,
+                "lengthInMeters": 8653,
+                "travelTimeInSeconds": 816,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T15:43:57+03:00",
+                "arrivalTime": "2024-07-01T15:57:33+03:00"
+            },
+            {
+                "originIndex": 2,
+                "destinationIndex": 3,
+                "lengthInMeters": 4948,
+                "travelTimeInSeconds": 737,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T16:07:33+03:00",
+                "arrivalTime": "2024-07-01T16:19:50+03:00"
+            },
+            {
+                "originIndex": 3,
+                "destinationIndex": 10,
+                "lengthInMeters": 17277,
+                "travelTimeInSeconds": 1296,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T16:29:50+03:00",
+                "arrivalTime": "2024-07-01T16:51:26+03:00"
+            },
+            {
+                "originIndex": 10,
+                "destinationIndex": 11,
+                "lengthInMeters": 27271,
+                "travelTimeInSeconds": 1659,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T17:01:26+03:00",
+                "arrivalTime": "2024-07-01T17:29:05+03:00"
+            },
+            {
+                "originIndex": 11,
+                "destinationIndex": 6,
+                "lengthInMeters": 21717,
+                "travelTimeInSeconds": 1065,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T17:39:05+03:00",
+                "arrivalTime": "2024-07-01T17:56:50+03:00"
+            },
+            {
+                "originIndex": 6,
+                "destinationIndex": 0,
+                "lengthInMeters": 17556,
+                "travelTimeInSeconds": 1453,
+                "waitingTimeInSeconds": 0,
+                "serviceTimeInSeconds": 600,
+                "departureTime": "2024-07-01T18:06:50+03:00",
+                "arrivalTime": "2024-07-01T18:31:03+03:00"
+            }
+        ]
+    }
+}

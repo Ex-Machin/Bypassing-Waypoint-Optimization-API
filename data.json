@@ -5,7 +5,7 @@
             "address": "Південний вокзал",
             "longitude": 30.48622,
             "latitude": 50.43872,
-            "is_starting_point": true
+            "group_id": 0
         }
     ],
     "group_1": [
@@ -21,7 +21,7 @@
                     "day_of_the_week": "Monday"
                 }
             ],
-            "is_starting_point": false
+            "group_id": 1
         },
         {
             "id": 2,
@@ -35,7 +35,7 @@
                     "day_of_the_week": "Monday"
                 }
             ],
-            "is_starting_point": false
+            "group_id": 1
         }
     ],
     "group_2": [
@@ -51,8 +51,7 @@
                     "day_of_the_week": "Monday"
                 }
             ],
-            "is_starting_point": false,
-            "group_id": 3
+            "group_id": 2
         },
         {
             "id": 8,
@@ -66,8 +65,7 @@
                     "day_of_the_week": "Monday"
                 }
             ],
-            "is_starting_point": false,
-            "group_id": 7
+            "group_id": 2
         }
     ],
     "group_3": [
@@ -83,8 +81,7 @@
                     "day_of_the_week": "Monday"
                 }
             ],
-            "is_starting_point": false,
-            "group_id": 4
+            "group_id": 3
         }
     ],
     "group_4": [
@@ -100,8 +97,7 @@
                     "day_of_the_week": "Monday"
                 }
             ],
-            "is_starting_point": false,
-            "group_id": 5
+            "group_id": 4
         }
     ],
     "group_5": [
@@ -117,8 +113,7 @@
                     "day_of_the_week": "Monday"
                 }
             ],
-            "is_starting_point": false,
-            "group_id": 6
+            "group_id": 5
         }
     ],
     "group_6": [
@@ -134,8 +129,7 @@
                     "day_of_the_week": "Monday"
                 }
             ],
-            "is_starting_point": false,
-            "group_id": 2
+            "group_id": 6
         }
     ],
     "group_7": [
@@ -151,8 +145,7 @@
                     "day_of_the_week": "Monday"
                 }
             ],
-            "is_starting_point": false,
-            "group_id": 8
+            "group_id": 7
         }
     ],
     "group_8": [
@@ -168,8 +161,7 @@
                     "day_of_the_week": "Monday"
                 }
             ],
-            "is_starting_point": false,
-            "group_id": 9
+            "group_id": 8
         }
     ],
     "group_9": [
@@ -185,8 +177,7 @@
                     "day_of_the_week": "Monday"
                 }
             ],
-            "is_starting_point": false,
-            "group_id": 11
+            "group_id": 9
         },
         {
             "id": 14,
@@ -200,7 +191,7 @@
                     "day_of_the_week": "Monday"
                 }
             ],
-            "is_starting_point": false
+            "group_id": 9
         }
     ],
     "group_10": [
@@ -216,8 +207,7 @@
                     "day_of_the_week": "Monday"
                 }
             ],
-            "is_starting_point": false,
-            "group_id": 11
+            "group_id": 10
         }
     ],
     "group_11": [
@@ -233,8 +223,7 @@
                     "day_of_the_week": "Monday"
                 }
             ],
-            "is_starting_point": false,
-            "group_id": 9
+            "group_id": 11
         }
     ]
 }
