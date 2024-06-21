@@ -3,7 +3,7 @@
 from utils import is_close
 import json
 
-with open("data.json", "r", encoding="utf-8") as file:
+with open("data_with_no_groups.json", "r", encoding="utf-8") as file:
     waypoints = json.load(file)["waypoints"]
 
 groups = []
