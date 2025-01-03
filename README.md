@@ -1,11 +1,46 @@
-To start, I gathered all the data from the Epicenter website, including opening times and coordinates for all stores in the city of Kyiv. Then, using the script find_nearest_elements.py, I identified nearby stores and grouped them. I chose a coordinate deviation of 0.035, which allows us to create exactly 12 groups from 15 locations.
+Bypassing Waypoint Optimization
+Bypassing Waypoint Optimization is an open-source project designed to optimize delivery routes efficiently by leveraging geographic and time-based data. This tool provides a framework for determining the best routes among multiple waypoints while considering store locations, opening hours, and API constraints.
 
-I converted these groups into objects and assigned them to specific variables in main.py, where the main logic takes place. First, we generate all possible combinations of elements within each group. This helps us choose which point within the group will make the route faster. There will be about 8 combinations of points within the groups in total. Next, we create 30-minute intervals and, for each combination and for every possible time slot (7:30, 8:00, 8:30, ..., 18:00), we send a request to the Waypoint Optimization API. The end time of 18:00 was selected based on the assumption that the delivery person will be able to deliver the goods by 22:00, which is the latest closing time of the stores. This is also based on the calculated average from the first run of the program – 3 hours and 48 minutes.
+Features
+Data Collection: Gathers location coordinates and opening hours for stores (currently configured for Kyiv's Epicenter locations).
+Dynamic Grouping: Groups stores into clusters based on geographic proximity with a customizable coordinate deviation.
+Combination Analysis: Generates all possible route combinations within clusters to identify optimal paths.
+API Integration: Interacts with a Waypoint Optimization API to evaluate route efficiency for various time slots.
+Error Handling: Includes random delays to prevent "Too Many Requests" errors and gracefully manages complex-route API limitations.
+Result Storage: Outputs the best routes and travel times to JSON files for easy reuse and further analysis.
+How It Works
+Data Initialization: Extracts and processes store data, grouping them into clusters. For example, 15 locations can be grouped into 12 clusters with a coordinate deviation of 0.035.
+Route Simulation: Runs simulations for all possible time slots (e.g., every 30 minutes from 7:30 AM to 6:00 PM) and evaluates combinations using the Waypoint Optimization API.
+Optimal Route Selection: Identifies the route with the lowest travel time, ensuring practical delivery schedules (e.g., delivery by the latest store closing time of 10:00 PM).
+Result Compilation: Stores results in best_data_points.json and best_results.json for further analysis. Provides formatted output via result.md.
+Getting Started
+Prerequisites
+Python 3.x
+A valid API key for the Waypoint Optimization API (insert in constants.py).
+Setup Instructions
+Clone this repository:
+bash
+Copy code
+git clone https://github.com/yourusername/bypassing-waypoint-optimization.git
+cd bypassing-waypoint-optimization
+Install dependencies:
+bash
+Copy code
+pip install -r requirements.txt
+Insert your API key in constants.py.
+Running the Program
+Prepare your data:
+Modify the data source if needed (e.g., for a different city or dataset).
+Update coordinate deviations or time slot ranges in main.py.
+Execute the main logic:
+bash
+Copy code
+python main.py
+View results:
+JSON outputs: best_data_points.json and best_results.json.
+Formatted summary: result.md.
+Contributing
+Contributions are welcome! If you'd like to add new features, fix bugs, or expand the project's compatibility, please fork the repository and submit a pull request. Make sure to follow the existing coding conventions.
 
-Then, we find the best result with the lowest travelTimeInSeconds. We also add a random delay of 1 to 2 seconds to avoid a "Too Many Requests" error. This request may result in errors if the predicted route is too complex, but this will not prevent us from finding the best route.
-
-We copy these results into JSON files best_data_points.json and best_results.json. Then, using the script find_best_results.py, we format the results from main.py, taking into account the grouping we did earlier.
-
-The results can be found in the file result.md.
-
-If you want to test the program yourself, you will need to insert the api_key in the file constants.py. This api_key will be linked to an email address.
+License
+This project is licensed under the MIT License. See LICENSE for details.
